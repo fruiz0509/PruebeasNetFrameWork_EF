@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2a10a2076f948a98dc43c9800bb77f7" Name="Diagram1">
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbAlmacen" Width="1.5" PointX="0.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbArticulo" Width="1.5" PointX="14.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbArticuloXProveedor" Width="1.5" PointX="11.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbCiudades" Width="1.5" PointX="9.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbClaseArticulo" Width="1.5" PointX="14.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbClasificacion" Width="1.5" PointX="11.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbColor" Width="1.5" PointX="16.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbComprador" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbConsumoDet" Width="1.5" PointX="16.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbConsumoEnc" Width="1.5" PointX="16.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbContactoProv" Width="1.5" PointX="16.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbEmpresa" Width="1.5" PointX="11.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbEstadoOC" Width="1.5" PointX="18.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbEstados" Width="1.5" PointX="18.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbEstatus" Width="1.5" PointX="5.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbEstatusOC" Width="1.5" PointX="18.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbExistenciaDesglose" Width="1.5" PointX="5.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbExistenciaEnc" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbGrupoProducto" Width="1.5" PointX="18.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbGrupoProv" Width="1.5" PointX="13.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbInventarioFisicoDet" Width="1.5" PointX="15.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbInventarioFisicoEnc" Width="1.5" PointX="17.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbLenguajes" Width="1.5" PointX="19.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbLinea" Width="1.5" PointX="20.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbMaximoMinimo" Width="1.5" PointX="20.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbModelo" Width="1.5" PointX="20.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbMoneda" Width="1.5" PointX="7.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbMotivosTransacciones" Width="1.5" PointX="21.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbOrdenCompraDesglose" Width="1.5" PointX="9.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbOrdenCompraDet" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbOrdenCompraDetDesglose" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbOrdenCompraEnc" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbOrdenGasto" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbPackingEnc" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbPaises" Width="1.5" PointX="9.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbPartner" Width="1.5" PointX="12" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbPlazosPagos" Width="1.5" PointX="21.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbPresentacion" Width="1.5" PointX="22.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbProrrateo" Width="1.5" PointX="22.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbProveedor" Width="1.5" PointX="0.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbRegistroMovimiento" Width="1.5" PointX="2.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbSolicitudTransDet" Width="1.5" PointX="4.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbSolicitudTransEnc" Width="1.5" PointX="22.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbSolTransDetDesglose" Width="1.5" PointX="9.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbSubClasificacion" Width="1.5" PointX="11.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTipoCambio" Width="1.5" PointX="23.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTipoCodigo" Width="1.5" PointX="17.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTipoGasto" Width="1.5" PointX="23.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTipoMovimiento" Width="1.5" PointX="24.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTipoTela" Width="1.5" PointX="24.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTransferencia" Width="1.5" PointX="13.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbTraspasoAlmacenes" Width="1.5" PointX="23.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbUbicacion" Width="1.5" PointX="3" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbUnidadMedida" Width="1.5" PointX="25.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbUnidadMedidaConversion" Width="1.5" PointX="25.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.EpicorLive_UserFile" Width="1.5" PointX="19.75" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.T_Menu" Width="1.5" PointX="25.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.T_MenuDetalle" Width="1.5" PointX="25.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.T_Rol" Width="1.5" PointX="26.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbMenu" Width="1.5" PointX="26.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbMenuDtl" Width="1.5" PointX="6.75" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.TbRol" Width="1.5" PointX="27.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.TbUsuario" Width="1.5" PointX="27.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPWeb_ServerModel.tbUsuarioLineas" Width="1.5" PointX="15.75" PointY="29.5" IsExpanded="true" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbExistenciaEnc_tbAlmacen" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbUbicacion_tbAlmacen" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.fk_part_city" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbOrdenCompraEnc_tbComprador" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbExistenciaDesglose_tbExistenciaEnc1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbOrdenCompraDesglose_tbOrdenCompraDetDesglose" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbOrdenCompraDet_tbOrdenCompraEnc" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbOrdenCompraDetDesglose_tbOrdenCompraDet" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbOrdenGasto_tbOrdenCompraEnc" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.FK_tbOrdenGasto_tbPackingEnc1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPWeb_ServerModel.fk_part_pais" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
